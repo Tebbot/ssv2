@@ -1,0 +1,26 @@
+{
+  "name": "simpleservicev2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.3.0",
+    "@discordjs/rest": "^1.3.0",
+    "body-parser": "^1.20.1",
+    "discord-api-types": "^0.37.12",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "generate-serial-key": "^2.0.0",
+    "mongoose": "^6.6.5",
+    "noblox": "^4.8.5",
+    "noblox.js": "^4.13.1",
+    "nodemon": "^2.0.20",
+    "ora": "^6.1.2"
+  }
+}
