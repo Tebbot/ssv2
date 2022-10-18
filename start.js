@@ -7,7 +7,7 @@ require("dotenv").config()
 
 mongoose.connect(process.env.CONNECTIONSTRING).then(() => {
     console.log("Connected to db! Starting backend.")
-    console.log(__dirname)
+    childProcess.fork(`../app/backend/index`)
 })
 
 
